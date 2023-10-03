@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header.jsx";
 import { StyleProvider } from "../contexts/StyleContext.js";
 import Greeting from "./Greeting.jsx";
@@ -6,9 +6,11 @@ import Skills from "./Skills.jsx";
 import Education from "./Education.jsx";
 import WorkExperience from "./WorkExperience/index.jsx";
 import Contact from "./Contact.jsx";
+import { useLocalStorage } from "../hooks/useLocalStorage.js";
 
 const Main = () => {
-  const [isDark, setIsDark] = useState(true);
+  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
 
   const changeTheme = () => {
     setIsDark(!isDark);
