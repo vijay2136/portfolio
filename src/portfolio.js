@@ -4,7 +4,7 @@ const greeting = {
   username: "Vijay Vinod",
   title: "Hi all, I'm Vijay",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with experience in building Full Stack web applications using React.js and Ruby on Rails. Committed to writing clean and maintainable code"
+    "A passionate Full Stack Software Developer 🚀 with experience in building Full Stack web applications using React.js and Ruby on Rails."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -18,15 +18,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Dedicated to writing clean, organized, and maintainable code to ensure software quality and long-term sustainability."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Enthusiastic about crafting minimalist and user-friendly interfaces to enhance the overall user experience."
     ),
+    emoji("⚡ Proficient in fast-paced development."),
   ],
 
   softwareSkills: [
@@ -51,19 +51,11 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
+      skillName: "ruby on rails",
+      fontAwesomeClassname: "fas fa-gem",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database",
     },
     {
@@ -71,16 +63,8 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws",
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker",
     },
   ],
 };

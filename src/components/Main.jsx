@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header.jsx";
 import { StyleProvider } from "../contexts/StyleContext.js";
 import Greeting from "./Greeting.jsx";
+import Skills from "./Skills.jsx";
 
 const Main = () => {
   const [isDark, setIsDark] = useState(true);
@@ -15,6 +16,7 @@ const Main = () => {
       <StyleProvider value={{ isDark, changeTheme }}>
         <Header />
         <Greeting />
+        <Skills />
       </StyleProvider>
     </div>
   );
