@@ -1,45 +1,20 @@
 import emoji from "react-easy-emoji";
 
-// Splash Screen
-
-const splashScreen = {
-  enabled: true, // set false to disable splash screen
-  duration: 2000, // Set animation duration as per your animation
-};
-
-// Summary And Greeting Section
-
-const illustration = {
-  animated: true, // Set to false to use static SVG
-};
-
 const greeting = {
   username: "Vijay Vinod",
-  title: "Hi all, I'm Vijay Vinod",
+  title: "Hi all, I'm Vijay",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with experience in building Full Stack web applications using React.js and Ruby on Rails. Committed to writing clean and maintainable code"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true, // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true,
+  github: "https://github.com/vijay2136/",
+  linkedin: "https://www.linkedin.com/in/vijay-vinod-266b80212/",
+  gmail: "imvijay2136@gmail.com",
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
@@ -108,13 +83,9 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -138,14 +109,11 @@ const educationInfo = {
   ],
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Frontend/Design",
+      progressPercentage: "90%",
     },
     {
       Stack: "Backend",
@@ -156,13 +124,10 @@ const techStack = {
       progressPercentage: "60%",
     },
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Software Engineer",
@@ -200,20 +165,14 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com",
 };
 
-// Twitter Section
-
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  userName: "twitter",
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
-
+const isHireable = false;
 export {
-  illustration,
   greeting,
   socialMediaLinks,
-  splashScreen,
   skillsSection,
   educationInfo,
   techStack,

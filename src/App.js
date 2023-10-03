@@ -1,6 +1,5 @@
 import React from "react";
-import "./stylesheets/App.scss";
-import Main from "./containers/Main";
+import Main from "./components/Main";
 
 const App = () => {
   return (

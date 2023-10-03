@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Header from "../components/Header.jsx";
-import { StyleProvider } from "../contexts/StyleContext";
+import Header from "./Header.jsx";
+import { StyleProvider } from "../contexts/StyleContext.js";
+import Greeting from "./Greeting.jsx";
 
 const Main = () => {
   const [isDark, setIsDark] = useState(true);
@@ -13,6 +14,7 @@ const Main = () => {
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{ isDark, changeTheme }}>
         <Header />
+        <Greeting />
       </StyleProvider>
     </div>
   );

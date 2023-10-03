@@ -1,6 +1,9 @@
 @import "./globalColor";
 @import "./components/header.scss";
 @import "./components/toggleSwitch.scss";
+@import "./components/greeting.scss";
+@import "./components/socialMedia.scss";
+@import "./components/button.scss";
 
 .App {
   text-align: center;
@@ -29,4 +32,10 @@
 
 .subTitle {
   color: $subTitle;
+}
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
 }
