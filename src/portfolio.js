@@ -9,7 +9,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with experience in building Full Stack web applications using React.js and Ruby on Rails."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://docs.google.com/document/d/1x8rnQUQtnZ84P2TchoiufVp2AhSBZGvi2DD0tiU3DU8/view?usp=sharing",
 };
 
 const socialMediaLinks = {
