@@ -1,4 +1,6 @@
 import emoji from "react-easy-emoji";
+import bigbinary from "./assets/images/bigbinary.ico";
+import neeto from "./assets/images/neeto.ico";
 
 const greeting = {
   username: "Vijay Vinod",
@@ -72,71 +74,45 @@ const skillsSection = {
 const educationInfo = {
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Rajagiri School of Engineering & Technology",
       logo: "",
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      subHeader: "Computer Science Engineering",
+      duration: "2017 - 2021",
+      desc: "CGPA: 8.4",
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "SNMHSS",
       logo: "",
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
-    },
-  ],
-};
-
-const techStack = {
-  experience: [
-    {
-      Stack: "Frontend/Design",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%",
+      subHeader: "Higher Secondary",
+      duration: "2015 - 2017",
+      desc: "Percentage: 96",
     },
   ],
 };
 
 const workExperiences = {
-  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: "",
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "BigBinary",
+      companylogo: bigbinary,
+      date: "2021 - Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Actively contributed in a team to develop a healthcare data platform for a major client.",
+        "Analysed bottlenecks and improved performance issues with code splitting, lazy loading etc.",
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: "",
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: "",
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "neeto",
+      companylogo: neeto,
+      date: "2021 - Present",
+      descBullets: [
+        "Collaborated on multiple internal products like neetoCal, neetoKB, neetoInvoice, etc..",
+        "Designed and developed reusable UI components, contributing to the neetoUI library for use across various neeto products.",
+        "Took on the role of TL for the neetoCal product.",
+        "Reviewed code managed projects.",
+      ],
     },
   ],
 };
@@ -159,7 +135,6 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   contactInfo,
   twitterDetails,

@@ -3,12 +3,10 @@ import Headroom from "react-headroom";
 
 import ToggleSwitch from "./ToggleSwitch";
 import StyleContext from "../contexts/StyleContext";
-import { greeting, workExperiences, skillsSection } from "../portfolio";
+import { greeting } from "../portfolio";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
-  const viewSkills = skillsSection.display;
 
   return (
     <Headroom>
@@ -27,16 +25,14 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          {viewSkills && (
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-          )}
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li>
+            <a href="#experience">Work Experiences</a>
+          </li>
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>
