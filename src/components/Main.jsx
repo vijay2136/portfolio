@@ -5,6 +5,7 @@ import Greeting from "./Greeting.jsx";
 import Skills from "./Skills.jsx";
 import Education from "./Education.jsx";
 import WorkExperience from "./WorkExperience/index.jsx";
+import Contact from "./Contact.jsx";
 
 const Main = () => {
   const [isDark, setIsDark] = useState(true);
@@ -21,6 +22,7 @@ const Main = () => {
         <Skills />
         <Education />
         <WorkExperience />
+        <Contact />
       </StyleProvider>
     </div>
   );

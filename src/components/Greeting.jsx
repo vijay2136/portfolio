@@ -4,8 +4,9 @@ import emoji from "react-easy-emoji";
 import landingPerson from "../assets/lottie/landingPerson";
 import Button from "./commons/Button";
 import Lottie from "lottie-react";
-import { greeting, socialMediaLinks } from "../portfolio";
+import { greeting } from "../portfolio";
 import StyleContext from "../contexts/StyleContext";
+import SocialMedia from "./commons/SocialMedia";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -31,35 +32,7 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <div className="social-media-div">
-                <a
-                  href={socialMediaLinks.github}
-                  className="icon-button github"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-github"></i>
-                  <span></span>
-                </a>
-                <a
-                  href={socialMediaLinks.linkedin}
-                  className="icon-button linkedin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-linkedin-in"></i>
-                  <span></span>
-                </a>
-                <a
-                  href={`mailto:${socialMediaLinks.gmail}`}
-                  className="icon-button google"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-envelope"></i>
-                  <span></span>
-                </a>
-              </div>
+              <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (

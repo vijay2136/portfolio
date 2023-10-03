@@ -120,9 +120,9 @@ const workExperiences = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com",
+    "Have a project in mind? Let's connect and bring your ideas to life.",
+  number: "+91 9961517220",
+  email_address: "imvijay2136@gmail.com",
 };
 
 const twitterDetails = {
