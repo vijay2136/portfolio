@@ -53,7 +53,11 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-image-div">
-            <Lottie loop animationData={email} />
+            <Lottie
+              loop
+              animationData={email}
+              style={{ width: "50%", height: "50%" }}
+            />
           </div>
         </div>
       </div>

@@ -2,6 +2,8 @@
 
 .contact-div-main {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dark-mode a {
@@ -37,6 +39,12 @@
 
 .contact-margin-top {
   margin-top: 4rem;
+}
+
+.contact-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-image-div > img {
