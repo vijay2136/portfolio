@@ -9,12 +9,12 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with experience in building Full Stack web applications using React.js and Ruby on Rails."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1x8rnQUQtnZ84P2TchoiufVp2AhSBZGvi2DD0tiU3DU8/view?usp=sharing",
+    "https://docs.google.com/document/d/1PquS2yWNGnqIzbb98GaUU29q0da1_cxI2jgkuubbpog/view",
 };
 
 const socialMediaLinks = {
   github: "https://github.com/vijay2136/",
-  linkedin: "https://www.linkedin.com/in/vijay-vinod-266b80212/",
+  linkedin: "https://www.linkedin.com/in/vijay-vinod",
   gmail: "imvijay2136@gmail.com",
 };
 
