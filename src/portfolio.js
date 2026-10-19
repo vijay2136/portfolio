@@ -10,7 +10,7 @@ const greeting = {
   headline: "I build software that helps teams move with",
   emphasis: "confidence",
   subTitle:
-    "Full-stack developer working with React and Ruby on Rails, currently building AI-powered features for an enterprise platform. I care about clean code, thoughtful architecture, and building things that are simple, reliable, and enjoyable to use.",
+    "Full-stack developer working with React and Ruby on Rails, currently building AI-powered features for an enterprise platform.",
   resumeLink:
     "https://docs.google.com/document/d/1PquS2yWNGnqIzbb98GaUU29q0da1_cxI2jgkuubbpog/view",
 };

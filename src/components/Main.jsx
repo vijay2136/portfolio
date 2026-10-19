@@ -74,7 +74,7 @@ export default function Main() {
             }
           });
         },
-        { rootMargin: "0px 0px -12% 0px", threshold: 0.08 }
+        { rootMargin: "0px 0px 12% 0px", threshold: 0 }
       );
       panels.forEach(p => io.observe(p));
       cleanups.push(() => io.disconnect());
